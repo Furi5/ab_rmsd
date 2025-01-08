@@ -2,7 +2,8 @@ import argparse
 import abnumber
 from Bio import PDB
 from Bio.PDB import Model, Chain, Residue, Selection
-from Bio.Data import SCOPData
+# from Bio.Data import SCOPData
+from Bio.Data import PDBData as SCOPData
 from typing import List, Tuple
 
 
