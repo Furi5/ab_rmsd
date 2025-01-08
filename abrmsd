@@ -34,7 +34,7 @@ def format_output(rmsd: Dict, v=False):
     print(">>> Result")
     print("Frag    RMSD(Å)")
     for k, v in rmsd.items():
-        print('{:5s}\t{:.4f}'.format(k, v.item()))
+        print('{:5s}\t{:.4f}'.format(k, v))
     print(">>> End")
 
 if __name__ == '__main__':
